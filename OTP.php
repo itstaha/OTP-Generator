@@ -1,4 +1,8 @@
 <?php
+/*
+ * PHP OTP Class
+ * https://github.com/itstaha/OTP-Generator/
+*/
 class OTP {
     private function unique() {
         $unique = uniqid();
