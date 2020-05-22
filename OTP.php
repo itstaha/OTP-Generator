@@ -7,7 +7,7 @@ class OTP {
     private function unique() {
         $unique = uniqid();
         $unique = preg_replace('/([a-zA-Z])/','', $unique);
-        $this->unique_id = $unique;
+        return $unique;
     }
     private function shuffle($str) {
         $shuffle = str_shuffle($str);
